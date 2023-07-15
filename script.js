@@ -27,7 +27,7 @@ $(document).ready(function(){
 
 
 let typed = new Typed('.type', {
-    strings: ["Developer","Designer","Freelancer"],
+    strings: ["Web Developer","Web Designer","Freelancer"],
     startDelay: 1000,
     typeSpeed: 80,
     fadeOut: true,
