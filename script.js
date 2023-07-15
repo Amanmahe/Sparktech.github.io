@@ -24,16 +24,16 @@ $(document).ready(function(){
 });
 
 //typing animation script
-var typed = new Typed(".typing", {
-    Strings: ["Developer","Designer","Freelancer"],
-    typeSpeed: 100,
-    backSpeed: 60,
-    loop: true,
-})
-var typed = new Typed(".typing2", {
-    Strings: ["Developer","Designer","Freelancer"],
-    typeSpeed: 100,
-    backSpeed: 60,
-    loop: true,
-})
+
+
+let typed = new Typed('.type', {
+    strings: ["Developer","Designer","Freelancer"],
+    startDelay: 1000,
+    typeSpeed: 80,
+    fadeOut: true,
+    fadeOutClass: 'typed-fade-out',
+    fadeOutDelay: 500,
+    backDelay: 2000,
+    loop: true
+});
 
